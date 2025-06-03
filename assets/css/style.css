@@ -16,61 +16,64 @@ Top Page
 .inner-container {
     max-width: 996px;
     padding: 0 20px;
-    margin: 0 auto;   
-    
+    margin: 0 auto;
+
 }
 
 .header-h2 {
     font-size: 24px;
-    font-weight: 300;
-    padding-left: 46px;    
+    font-weight: 600;
+    padding-left: 46px;
     position: relative;
-    width: fit-content;
 }
 
 .header-h2::before {
     content: '';
-    width: 40px; 
+    width: 40px;
     background-color: #97C5A1;
-    height: 5px;
-    position: absolute;    
+    height: 3px;
+    position: absolute;
     left: 0;
     top: 10px;
 }
 
 .main-container {
     max-width: 900px;
-    padding: 20px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
 .idea {
-    margin: 52px 0 81px 0;
+    margin: 50px 0 80px 0;
 }
 
 .idea-p {
     margin-top: 21px;
+    line-height: 1.8;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .span-font20 {
     font-size: 20px;
+    font-weight: 600;
     color: #97C5A1;
     display: flex;
     align-items: center;
+    position: relative;
+    padding: 0 30px;
 }
 
 .span-font20::before {
     content: '';
     width: 20px;
     height: 20px;
-    display: inline-block;
-    margin-right: 10px;
+    position: absolute;
+    left: 0;
     background-color: #97C5A1;
+    border-radius: 2px;
 }
 
-.idea-p {
-    font-size: 20px;
-}
 
 .inner-policy-container {
     display: grid;
@@ -81,11 +84,13 @@ Top Page
 
 .inner-policy {
     font-size: 14px;
+    font-weight: 500;
     max-width: 420px;
     padding: 50px 30px;
     background-color: #F7F9F1;
     border-radius: 30px;
     position: relative;
+    line-height: 1.7;
 }
 
 .inner-policy::after {
@@ -93,7 +98,7 @@ Top Page
     position: absolute;
     color: #97C5A1;
     display: block;
-    top: -35px;
+    top: -60px;
     right: 0px;
     font-size: 70px;
 }
@@ -112,12 +117,20 @@ Top Page
 
 .container.second {
     background-color: #DDF0EF;
-    padding: 102px 0 84px 0;
+    padding: 100px 0 63px 0;
 }
 
 .lower-header {
     margin: 51px 0 30px 0;
     font-size: 14px;
+    font-weight: 500;
+}
+
+.work-schedule-p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #97C5A1;
+    margin-bottom: 30px;
 }
 
 .work-schedule-container {
@@ -134,19 +147,17 @@ Top Page
     border-bottom: 2px dashed #80BF8D;
     padding-bottom: 23px;
     margin-bottom: 141px;
-
-
 }
 
 .early {
     background: #FFE1BF;
-    width: 160px;
-    height: 50px;
     border-radius: 100vmax;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 20px;
+    font-weight: 600;
+    padding: 15px 49px;
 }
 
 .early.mid-day {
@@ -160,13 +171,10 @@ Top Page
 .work-schedule-time.before::before {
     content: '（早番）';
     font-size: 14px;
+    font-weight: 600;
 }
 
-.work-schedule-p {
-    font-size: 16px;
-    color: #97C5A1;
-    margin-bottom: 30px;
-}
+
 
 .work-schedule-left {
     border-right: 2px dashed #80BF8D;
@@ -188,7 +196,7 @@ Top Page
 .third-container {
     font-family: 'Noto Sans JP';
     background: #EAF0DD;
-    padding: 137px 0 290px 0;
+    padding: 137px 0 291px 0;
 }
 
 .group-text {
@@ -196,8 +204,9 @@ Top Page
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 138px;
     font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7;
 }
 
 .data {
@@ -208,7 +217,7 @@ Top Page
 .third-header {
     margin: 12px 0 51px 0;
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .grid-template-area {
@@ -245,6 +254,206 @@ Top Page
 .grid-template-area>div {
     background: #FFFFFF;
     border-radius: 30px;
-    padding: 90px 0;
-    text-align: center;
+    padding: 88px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+
+@media screen and (max-width: 795px) {
+    .work-schedule-container {
+        padding: 30px 35px;
+        border-radius: 15px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        padding: 61px 0 30px 0;
+    }
+
+    .header-h2 {
+        font-size: 22px;
+        padding-left: 26px;
+    }
+
+    .header-h2::before {
+        width: 20px;
+    }
+
+    .idea {
+        margin: 25px 0 40px 0;
+    }
+
+    .idea-p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .span-font20 {
+        font-size: 18px;
+        padding: 15px 25px;
+    }
+
+    .span-font20::before {
+        width: 15px;
+        height: 15px;
+    }
+
+    .inner-policy-container {
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+    }
+
+    .inner-policy {
+        font-size: 12px;
+    }
+
+    .group-text {
+        font-size: 12px;
+    }
+
+    .lower-header {
+        font-size: 12px;
+        margin: 25px 0 25px 0;
+
+    }
+
+    .inner-policy::after {
+        font-size: 50px;
+        top: -45px;
+    }
+
+    .container.second {
+        padding: 55px 0 42px 0;
+    }
+
+    .work-schedule {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 12px;
+        margin-bottom: 30px;
+        border-bottom: none;
+        gap: 20px;
+    }
+
+    .work-schedule-left {
+        border-right: none;
+        border-bottom: 2px dashed #80BF8D;
+    }
+
+    .work-schedule-p {
+        font-size: 14px;
+    }
+
+    .work-schedule-time {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .work-schedule-time.before::before {
+        font-size: 12px;
+    }
+
+    .early {
+        font-size: 18px;
+    }
+
+    .data {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .third-header {
+        font-size: 20px;
+        margin: 6px 0 25px 0;
+    }
+
+    .grid-template-area {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas:
+            "age"
+            "staff"
+            "ratio"
+            "length"
+            "leave";
+        margin-top: 25px;
+        
+    }
+
+    .grid-template-area>div {
+        font-size: 14px;
+        border-radius: 30px;
+        padding: 40px;
+    }
+
+    .third-container {
+        padding: 70px 0 145px 0;
+    }
+
+    .group-text {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .header-h2.second {
+        font-size: 18px;
+    }
+
+    .work-schedule-container {
+        padding: 30px 10px;
+    }
+
+    .work-schedule-time {
+        font-size: 20px;
+    }
+
+    .early {
+        padding: 15px 30px;
+        font-size: 14px;
+    }
+
+    .work-schedule-p {
+        font-size: 12px;
+    }
+
+    .work-schedule-time.before::before {
+        font-size: 10px;
+    }
+
+    .inner-policy {
+        padding: 30px 25px;
+        border-radius: 15px;
+    }
+
+    .idea {
+        margin: 15px 0 20px 0;
+    }
+
+    .third-container {
+        padding: 35px 0 70px 0;
+    }
+    .grid-template-area{
+        gap: 15px;
+    }
+
+    .grid-template-area>div {
+        font-size: 14px;
+        border-radius: 30px;
+        padding: 20px 0;
+    }
 }
