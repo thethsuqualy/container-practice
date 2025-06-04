@@ -48,7 +48,7 @@ Top Page
 }
 
 .idea-p {
-    margin-top: 21px;
+    margin-top: 20px;
     line-height: 1.8;
     font-size: 20px;
     font-weight: 500;
@@ -98,6 +98,7 @@ Top Page
     position: absolute;
     color: #97C5A1;
     display: block;
+    font-family: "futura-pt", sans-serif;
     top: -60px;
     right: 0px;
     font-size: 70px;
@@ -117,7 +118,7 @@ Top Page
 
 .container.second {
     background-color: #DDF0EF;
-    padding: 100px 0 63px 0;
+    padding: 100px 0 84px 0;
 }
 
 .lower-header {
@@ -165,6 +166,7 @@ Top Page
 }
 
 .work-schedule-time {
+    font-family: "futura-pt", sans-serif;
     font-size: 40px;
 }
 
@@ -210,12 +212,14 @@ Top Page
 }
 
 .data {
+    font-family: "futura-pt", sans-serif;
     font-size: 16px;
+    font-weight: 500;
     color: #7FBF8D;
 }
 
 .third-header {
-    margin: 12px 0 51px 0;
+    margin: 9px 0 50px 0;
     font-size: 30px;
     font-weight: 600;
 }
@@ -336,7 +340,7 @@ Top Page
     }
 
     .container.second {
-        padding: 55px 0 42px 0;
+        padding: 50px 0 42px 0;
     }
 
     .work-schedule {
@@ -358,6 +362,7 @@ Top Page
     }
 
     .work-schedule-time {
+        font-family:"futura-pt", sans-serif;
         font-size: 25px;
         padding-bottom: 20px;
     }
@@ -377,7 +382,7 @@ Top Page
 
     .third-header {
         font-size: 20px;
-        margin: 6px 0 25px 0;
+        margin: 5px 0 25px 0;
     }
 
     .grid-template-area {
