@@ -102,6 +102,7 @@ Top Page
     top: -60px;
     right: 0px;
     font-size: 70px;
+    font-weight: 300;
 }
 
 .inner-policy-sec::after {
@@ -168,6 +169,7 @@ Top Page
 .work-schedule-time {
     font-family: "futura-pt", sans-serif;
     font-size: 40px;
+    font-weight: 600;
 }
 
 .work-schedule-time.before::before {
@@ -321,6 +323,7 @@ Top Page
     }
 
     .inner-policy {
+        max-width: 370px;
         font-size: 12px;
     }
 
